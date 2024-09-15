@@ -14,6 +14,7 @@ body {
 :root {
 --color-primary:hwb(14 4% 29%);
  --color-black: #111;
+ --color-white:#fff;
 
 }
 .header {
@@ -53,3 +54,33 @@ body {
 .header-nav-link:hover {
 color: var(--color-primary);
 }
+/* Hero section */
+.hero-section{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0, .6)), url(./images/Apartments-Modern-Designcc3bcb9a-c576-48e4-8a7e-85919093ce36.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.textbox{
+    text-align: center;
+   
+}
+.hero-title{
+    color: var(--color-white);
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.hero-link{
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background-color: var(--color-primary);
+    padding: 2rem 2.5rem;
+    border-radius: 50%;
+}
+/* end of Hero section */
