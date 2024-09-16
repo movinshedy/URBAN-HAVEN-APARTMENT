@@ -14,7 +14,7 @@ body {
 :root {
 --color-primary:hwb(14 4% 29%);
  --color-black: #111;
- --color-white:#fff;
+ --color-white:#fff; 
 
 }
 .header {
@@ -84,3 +84,31 @@ color: var(--color-primary);
     border-radius: 50%;
 }
 /* end of Hero section */
+/* Essential info section */
+.essential-section{
+    display: flex;
+    padding: 8rem 2rem;
+    border-color: blue;
+}
+.essential-textbox{
+    width: 50%;
+    background-color: #ff5100;
+}
+.space-list{
+    
+    gap: 6rem;
+}
+.list-text{
+  font-size: medium; 
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--color-black);
+  font-weight: 600;
+  padding: 2rem;
+  text-align: justify;
+}
+.Image-one{
+    width:50%;
+    padding: 0.5rem;
+}
+/*End of Essential info section */
